@@ -1,0 +1,55 @@
+import type { Salon } from "./types"
+
+export const mockSalons: Salon[] = [
+  {
+    id: "1",
+    name: "Elegance Hair Studio",
+    location: "Victoria Island, Lagos",
+    rating: 4.8,
+    reviews: 124,
+    image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600",
+    imageHint: "Modern hair salon interior with styling chairs",
+    startingPrice: 15000,
+    services: [
+      { name: "Hair Braiding", price: 25000, duration: 180 },
+      { name: "Hair Washing", price: 8000, duration: 30 },
+      { name: "Hair Styling", price: 15000, duration: 60 },
+    ],
+    featured: true,
+    verified: true,
+  },
+  {
+    id: "2",
+    name: "Royal Beauty Palace",
+    location: "Ikeja, Lagos",
+    rating: 4.6,
+    reviews: 89,
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
+    imageHint: "Luxury beauty salon with nail stations",
+    startingPrice: 12000,
+    services: [
+      { name: "Manicure", price: 12000, duration: 45 },
+      { name: "Pedicure", price: 15000, duration: 60 },
+      { name: "Nail Art", price: 20000, duration: 90 },
+    ],
+    featured: false,
+    verified: true,
+  },
+  {
+    id: "3",
+    name: "Afro Roots Salon",
+    location: "Surulere, Lagos",
+    rating: 4.9,
+    reviews: 156,
+    image: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600",
+    imageHint: "African hair braiding salon with natural hair focus",
+    startingPrice: 18000,
+    services: [
+      { name: "Dreadlocks", price: 35000, duration: 240 },
+      { name: "Natural Hair Care", price: 18000, duration: 120 },
+      { name: "Hair Treatment", price: 22000, duration: 90 },
+    ],
+    featured: true,
+    verified: true,
+  },
+]
