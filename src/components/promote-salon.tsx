@@ -9,7 +9,7 @@ const PromoteSalon = () => {
         <div className="relative rounded-lg overflow-hidden bg-primary/10">
             <div className="absolute inset-0">
                 <Image 
-                    src="https://placehold.co/1200x600.png"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/1200x600-sil8MCFY504gVmtYb5cAdNEhWMXcH9.png"
                     alt="Salon owner smiling"
                     layout="fill"
                     objectFit="cover"
@@ -45,7 +45,7 @@ const PromoteSalon = () => {
                 </div>
                 <div className="hidden md:block">
                     <Image 
-                        src="https://placehold.co/600x600.png"
+                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/600x600-n5UtzyELLSnjFOqGXDV8irDBWXBMcd.png"
                         alt="Stylish salon interior"
                         width={600}
                         height={600}
