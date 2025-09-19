@@ -1,7 +1,7 @@
 "use client"
 
-import AiStylist from "../src/components/ai-stylist"
+import FeaturedCategories from "../components/featured-categories"
 
 export default function SyntheticV0PageForDeployment() {
-  return <AiStylist />
+  return <FeaturedCategories />
 }

@@ -2,6 +2,7 @@ import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
   /* config options here */
+  srcDir: "src", // Added srcDir to explicitly use src directory for app routing
   typescript: {
     ignoreBuildErrors: true,
   },
